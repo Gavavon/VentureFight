@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spOrange",
-    "path": "sprites/spOrange/spOrange.yy",
+    "name": "spFightButton",
+    "path": "sprites/spFightButton/spFightButton.yy",
   },
   "solid": false,
   "visible": true,
