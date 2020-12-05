@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spOrange",
+    "path": "sprites/spOrange/spOrange.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
