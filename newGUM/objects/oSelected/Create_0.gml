@@ -1,0 +1,2 @@
+/// @description Variables :)
+var indexPointer;
