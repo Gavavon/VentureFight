@@ -7,92 +7,84 @@ function scSelectorSwitch()
 	//select = true if selected
 	//select = false if unselected
 	var button = argument0;
-	if(button.sprite_index == spBlueButton || button.sprite_index == spBlueButton2 || button.sprite_index == spBlueButton3)
-	{
-		sprite_index = spBlueSelected;
-		select = true;
-	}
-	else if(sprite_index == spBlueSelected)
+	
+	if(sprite_index == spBlueSelected)
 	{
 		sprite_index = button.mask_index;
-		select = false;
+		if(button.arrayPointer == 1)//!select
+		{
+			p1Characters[button.indexPointer] = spOrange;
+		}
+		else//arrayPointer == 2
+		{
+			p2Characters[button.indexPointer] = spOrange;
+		}
+		button.arrayPointer = pointer_null;
+		button.indexPointer = pointer_null;
 	}
 	else if(sprite_index == spRedSelected)
 	{
 		sprite_index = button.mask_index;
-		select = false;
-	}
-	else if(sprite_index == spRedButton  || button.sprite_index == spRedButton2 || button.sprite_index == spRedButton3)
-	{
-		sprite_index = spRedSelected;
-		select = true;
+		if(button.arrayPointer == 1)//!select
+		{
+			p1Characters[button.indexPointer] = spOrange;
+		}
+		else if(button.arrayPointer == 2)
+		{
+			p2Characters[button.indexPointer] = spOrange;
+		}
+		button.arrayPointer = pointer_null;
+		button.indexPointer = pointer_null;
 	}
 	else if(sprite_index == spGreenSelected)
 	{
 		sprite_index = button.mask_index;
-		select = false;
-	}
-	else if(sprite_index == spGreenButton || button.sprite_index == spGreenButton2 || button.sprite_index == spGreenButton3)
-	{
-		sprite_index = spGreenSelected;
-		select = true;
+		if(button.arrayPointer == 1)//!select
+		{
+			p1Characters[button.indexPointer] = spOrange;
+		}
+		else//arrayPointer == 2
+		{
+			p2Characters[button.indexPointer] = spOrange;
+		}
+		button.arrayPointer = pointer_null;
+		button.indexPointer = pointer_null;
 	}
 	else if(sprite_index == spPurpleSelected)
 	{
 		sprite_index = button.mask_index;
-		select = false;
+		if(button.arrayPointer == 1)//!select
+		{
+			p1Characters[button.indexPointer] = spOrange;
+		}
+		else//arrayPointer == 2
+		{
+			p2Characters[button.indexPointer] = spOrange;
+		}
+		button.arrayPointer = pointer_null;
+		button.indexPointer = pointer_null;
 	}
-	else if(sprite_index == spPurpleButton || button.sprite_index == spPurpleButton2 || button.sprite_index == spPurpleButton3)
+	else if((button.sprite_index == spBlueTank || button.sprite_index == spBlueAss || button.sprite_index == spBlueSup) && !scFullFighters())
 	{
-		sprite_index = spPurpleSelected;
-		select = true;
+		sprite_index = spBlueSelected;
+		scSetSelectorVars(button);
+	}
+
+	else if((sprite_index == spRedTank  || button.sprite_index == spRedAss || button.sprite_index == spRedSup) && !scFullFighters())
+	{
+		sprite_index = spRedSelected;
+		scSetSelectorVars(button);
 	}
 	
-	if(select)
+	else if((sprite_index == spGreenTank || button.sprite_index == spGreenAss || button.sprite_index == spGreenSup) && !scFullFighters())
 	{
-		if(p1Characters[0] == spOrange)
-		{
-			p1Characters[0] = button.mask_index;
-			button.arrayPointer = 1;
-			button.indexPointer = 0;
-		}
-		else if(p1Characters[1] == spOrange)
-		{
-			p1Characters[1] = button.mask_index;
-			button.arrayPointer = 1;
-			button.indexPointer = 1;
-		}
-		else if(p1Characters[2] == spOrange)
-		{
-			p1Characters[2] = button.mask_index;
-			button.arrayPointer = 1;
-			button.indexPointer = 2;
-		}
-		else if(p2Characters[0] == spOrange)
-		{
-			p2Characters[0] = button.mask_index;
-			button.arrayPointer = 2;
-			button.indexPointer = 0;
-		}
-		else if(p2Characters[1] == spOrange)
-		{
-			p2Characters[1] = button.mask_index;
-			button.arrayPointer = 2;
-			button.indexPointer = 1;
-		}
-		else//if(p1Characters[0] == spOrange)
-		{
-			p2Characters[2] = button.mask_index;
-			button.arrayPointer = 2;
-			button.indexPointer = 2;
-		}
+		sprite_index = spGreenSelected;
+		scSetSelectorVars(button);
 	}
-	else if(button.arrayPointer == 1)//!select
+	
+	else if((sprite_index == spPurpleTank || button.sprite_index == spPurpleAss || button.sprite_index == spPurpleSup) && !scFullFighters())
 	{
-		p1Characters[button.indexPointer] = spOrange;
-	}
-	else//arrayPointer == 2
-	{
-		p2Characters[button.indexPointer] = spOrange;
+		sprite_index = spPurpleSelected;
+		scSetSelectorVars(button);
 	}
 }

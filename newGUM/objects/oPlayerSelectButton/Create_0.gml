@@ -1,3 +1,3 @@
 /// @description Variables :)
-var arrayPointer;
-var indexPointer;
+var arrayPointer = pointer_null;
+var indexPointer = pointer_null;
