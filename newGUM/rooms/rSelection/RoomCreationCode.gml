@@ -3,11 +3,11 @@ globalvar p2Characters;
 
 for(var i = 0; i < 3; i++)
 {
-	p1Characters[i] = spOrange;
+	p1Characters[i] = spBlank;
 }
 for(var i = 0; i < 3; i++)
 {
-	p2Characters[i] = spOrange;
+	p2Characters[i] = spBlank;
 }
 
 buttons = ds_list_create();
@@ -97,30 +97,3 @@ var obj = instance_create_depth(room_width - 5 * distance, distance/2, 1, oSelec
 obj.arrayPointer = 2;
 obj.indexPointer = 2;
 
-
-
-
-var obj = instance_create_depth(distance/2, room_height - distance/2, 1, oSelectedRunner);
-obj.arrayPointer = 1
-obj.indexPointer = 0;
-
-var obj = instance_create_depth(2* distance, room_height -  distance/2, 1, oSelectedRunner);
-obj.arrayPointer = 1
-obj.indexPointer = 1;
-
-var obj = instance_create_depth(3 * distance + (distance/2), room_height -  distance/2, 1, oSelectedRunner);
-obj.arrayPointer = 1
-obj.indexPointer = 2;
-
-
-var obj = instance_create_depth(room_width - distance/2, room_height -  distance/2, 1, oSelectedRunner);
-obj.arrayPointer = 2
-obj.indexPointer = 0;
-
-var obj = instance_create_depth(room_width - 2* distance, room_height -  distance/2, 1, oSelectedRunner);
-obj.arrayPointer = 2
-obj.indexPointer = 1;
-
-var obj = instance_create_depth(room_width - (3 * distance + (distance/2)), room_height -  distance/2, 1, oSelectedRunner);
-obj.arrayPointer = 2;
-obj.indexPointer = 2;

@@ -16,3 +16,20 @@ repeat(array_length_1d(currentMenu))
 	i++;
 	//audioPlaySound(, 1, false)
 }
+
+drawX = room_width / 2 - 380;
+drawY = 50;
+if(currentMenu == main)
+{
+	spriteDraw = spTitle;
+}
+else if(currentMenu == options)
+{
+	spriteDraw = spOptions;
+}
+else if(currentMenu == exitMenu)
+{
+	spriteDraw = spExit;
+}
+draw_sprite_ext(spriteDraw, 1, drawX, drawY, 1, 1, 0, c_white, .9);
+

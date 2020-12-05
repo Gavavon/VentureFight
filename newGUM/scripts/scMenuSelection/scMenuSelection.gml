@@ -20,7 +20,8 @@ function scMenuSelection()
 			//Exit
 			case 2:
 			{
-				game_end();
+				currentMenu = exitMenu;
+				menuIndex = 0;
 				break;
 			}
 			//HUH???
@@ -52,6 +53,15 @@ function scMenuSelection()
 				menuIndex = 0;
 				break;
 			}
+			default://ACTUALLY HOW YOU HACKER
+			{
+				break;
+			}
 		}
+	}
+	else if(oMenu.currentMenu == exitMenu)
+	{
+		game_end();
+
 	}
 }

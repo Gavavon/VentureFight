@@ -1,6 +1,6 @@
 /// @description Variables :)
 menuX = x;
-menuY = y;
+menuY = y + 100;
 menuIndex= 0;
 textHeight = 64;
 
@@ -13,5 +13,9 @@ main[2] = "Exit";
 options[0] = "Idk what options are";
 options[1] = "exit the game but from the options";
 options[2] = "Go back to the main menu :P";
+//Exit
+exitMenu[0] ="exit";
+exitMenu[1] = "EXIT";
+exitMenu[2] = "LET ME GO";
 
 currentMenu = main;

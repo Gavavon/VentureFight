@@ -13,11 +13,11 @@ function scSelectorSwitch()
 		sprite_index = button.mask_index;
 		if(button.arrayPointer == 1)//!select
 		{
-			p1Characters[button.indexPointer] = spOrange;
+			p1Characters[button.indexPointer] = spBlank;
 		}
 		else//arrayPointer == 2
 		{
-			p2Characters[button.indexPointer] = spOrange;
+			p2Characters[button.indexPointer] = spBlank;
 		}
 		button.arrayPointer = pointer_null;
 		button.indexPointer = pointer_null;
@@ -27,11 +27,11 @@ function scSelectorSwitch()
 		sprite_index = button.mask_index;
 		if(button.arrayPointer == 1)//!select
 		{
-			p1Characters[button.indexPointer] = spOrange;
+			p1Characters[button.indexPointer] = spBlank;
 		}
 		else if(button.arrayPointer == 2)
 		{
-			p2Characters[button.indexPointer] = spOrange;
+			p2Characters[button.indexPointer] = spBlank;
 		}
 		button.arrayPointer = pointer_null;
 		button.indexPointer = pointer_null;
@@ -41,11 +41,11 @@ function scSelectorSwitch()
 		sprite_index = button.mask_index;
 		if(button.arrayPointer == 1)//!select
 		{
-			p1Characters[button.indexPointer] = spOrange;
+			p1Characters[button.indexPointer] = spBlank;
 		}
 		else//arrayPointer == 2
 		{
-			p2Characters[button.indexPointer] = spOrange;
+			p2Characters[button.indexPointer] = spBlank;
 		}
 		button.arrayPointer = pointer_null;
 		button.indexPointer = pointer_null;
@@ -55,11 +55,11 @@ function scSelectorSwitch()
 		sprite_index = button.mask_index;
 		if(button.arrayPointer == 1)//!select
 		{
-			p1Characters[button.indexPointer] = spOrange;
+			p1Characters[button.indexPointer] = spBlank;
 		}
 		else//arrayPointer == 2
 		{
-			p2Characters[button.indexPointer] = spOrange;
+			p2Characters[button.indexPointer] = spBlank;
 		}
 		button.arrayPointer = pointer_null;
 		button.indexPointer = pointer_null;

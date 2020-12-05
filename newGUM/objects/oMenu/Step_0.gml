@@ -15,6 +15,11 @@ if(move != 0)
 		menuIndex = 0;
 	}
 }
+if(keyboard_check_pressed(vk_escape) && currentMenu != main)
+{
+	currentMenu = main;
+	menuIndex = 0;
+}
 
 var push = max(keyboard_check_pressed(vk_enter), keyboard_check_pressed(vk_space), 0);
 if(push == 1)
