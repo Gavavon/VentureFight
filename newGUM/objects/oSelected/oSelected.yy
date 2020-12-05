@@ -1,14 +1,8 @@
 {
-  "spriteId": {
-    "name": "spOrange",
-    "path": "sprites/spOrange/spOrange.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "spOrange",
-    "path": "sprites/spOrange/spOrange.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

@@ -3,47 +3,96 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scSelectorSwitch()
 {
-	//return true if selected
-	//return false if unselected
+	var select;
+	//select = true if selected
+	//select = false if unselected
 	var button = argument0;
-	if(button.sprite_index == spBlueButton)
+	if(button.sprite_index == spBlueButton || button.sprite_index == spBlueButton2 || button.sprite_index == spBlueButton3)
 	{
 		sprite_index = spBlueSelected;
-		return true;
+		select = true;
 	}
 	else if(sprite_index == spBlueSelected)
 	{
-		sprite_index = spBlueButton;
-		return false;
+		sprite_index = button.mask_index;
+		select = false;
 	}
 	else if(sprite_index == spRedSelected)
 	{
-		sprite_index = spRedButton;
-		return false;
+		sprite_index = button.mask_index;
+		select = false;
 	}
-	else if(sprite_index == spRedButton)
+	else if(sprite_index == spRedButton  || button.sprite_index == spRedButton2 || button.sprite_index == spRedButton3)
 	{
 		sprite_index = spRedSelected;
-		return true;
+		select = true;
 	}
 	else if(sprite_index == spGreenSelected)
 	{
-		sprite_index = spGreenButton;
-		return false;
+		sprite_index = button.mask_index;
+		select = false;
 	}
-	else if(sprite_index == spGreenButton)
+	else if(sprite_index == spGreenButton || button.sprite_index == spGreenButton2 || button.sprite_index == spGreenButton3)
 	{
 		sprite_index = spGreenSelected;
-		return true;
+		select = true;
 	}
 	else if(sprite_index == spPurpleSelected)
 	{
-		sprite_index = spPurpleButton;
-		return false;
+		sprite_index = button.mask_index;
+		select = false;
 	}
-	else if(sprite_index == spPurpleButton)
+	else if(sprite_index == spPurpleButton || button.sprite_index == spPurpleButton2 || button.sprite_index == spPurpleButton3)
 	{
 		sprite_index = spPurpleSelected;
-		return true;
+		select = true;
+	}
+	
+	if(select)
+	{
+		if(p1Characters[0] == spOrange)
+		{
+			p1Characters[0] = button.mask_index;
+			button.arrayPointer = 1;
+			button.indexPointer = 0;
+		}
+		else if(p1Characters[1] == spOrange)
+		{
+			p1Characters[1] = button.mask_index;
+			button.arrayPointer = 1;
+			button.indexPointer = 1;
+		}
+		else if(p1Characters[2] == spOrange)
+		{
+			p1Characters[2] = button.mask_index;
+			button.arrayPointer = 1;
+			button.indexPointer = 2;
+		}
+		else if(p2Characters[0] == spOrange)
+		{
+			p2Characters[0] = button.mask_index;
+			button.arrayPointer = 2;
+			button.indexPointer = 0;
+		}
+		else if(p2Characters[1] == spOrange)
+		{
+			p2Characters[1] = button.mask_index;
+			button.arrayPointer = 2;
+			button.indexPointer = 1;
+		}
+		else//if(p1Characters[0] == spOrange)
+		{
+			p2Characters[2] = button.mask_index;
+			button.arrayPointer = 2;
+			button.indexPointer = 2;
+		}
+	}
+	else if(button.arrayPointer == 1)//!select
+	{
+		p1Characters[button.indexPointer] = spOrange;
+	}
+	else//arrayPointer == 2
+	{
+		p2Characters[button.indexPointer] = spOrange;
 	}
 }

@@ -1,9 +1,9 @@
 /// @description Frame
-if(ds_list_size(p1Characters) > indexPointer)
+if(arrayPointer == 1)
 {
-	sprite_index = ds_list_find_value(p1Characters, indexPointer).sprite_index;
+	sprite_index = p1Characters[indexPointer];
 }
-else
+else//arrayPointer == 2
 {
-	sprite_index = spOrange;
+	sprite_index = p2Characters[indexPointer];
 }
