@@ -1,14 +1,13 @@
 /// @desc 
 if(doAttack == true){
 	
-	sAttack(oPurpleSup);
+	show_debug_message("attack");
 	
 	oRound.next = true;
 	doAttack = false;
 }
 if(doSpecial == true){
-	
-	sBuffAttack(oBlueSup);
+	sBuffAttack(id);
 	
 	
 	oRound.next = true;

@@ -1,7 +1,7 @@
 /// @desc 
 if(doAttack == true){
 	
-	sAttack(oPurpleTank);
+	show_debug_message("attack");
 	
 	oRound.next = true;
 	doAttack = false;
