@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 13659,
+  "bbox_right": 2999,
   "bbox_top": 0,
-  "bbox_bottom": 7679,
+  "bbox_bottom": 1499,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 13660,
-  "height": 7680,
+  "width": 3000,
+  "height": 1500,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"584dacc9-6e8d-4a82-b4da-7ccaa2758266","path":"sprites/spFightBackground/spFightBackground.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"584dacc9-6e8d-4a82-b4da-7ccaa2758266","path":"sprites/spFightBackground/spFightBackground.yy",},"LayerId":{"name":"1381a1d1-dae5-40f9-a244-884e5d359686","path":"sprites/spFightBackground/spFightBackground.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spFightBackground","path":"sprites/spFightBackground/spFightBackground.yy",},"resourceVersion":"1.0","name":"584dacc9-6e8d-4a82-b4da-7ccaa2758266","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6185003b-8437-41b3-b43e-0edc33726618","path":"sprites/spBackgroundFight/spBackgroundFight.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6185003b-8437-41b3-b43e-0edc33726618","path":"sprites/spBackgroundFight/spBackgroundFight.yy",},"LayerId":{"name":"4b343dfc-8471-4aa1-9bb2-3276edf2da1e","path":"sprites/spBackgroundFight/spBackgroundFight.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spBackgroundFight","path":"sprites/spBackgroundFight/spBackgroundFight.yy",},"resourceVersion":"1.0","name":"6185003b-8437-41b3-b43e-0edc33726618","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spFightBackground","path":"sprites/spFightBackground/spFightBackground.yy",},
+    "spriteId": {"name":"spBackgroundFight","path":"sprites/spBackgroundFight/spBackgroundFight.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"10c8e307-e954-4e0d-87e3-20b072ce2635","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"584dacc9-6e8d-4a82-b4da-7ccaa2758266","path":"sprites/spFightBackground/spFightBackground.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"61d16045-dbdc-41d7-85ff-be200c738962","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6185003b-8437-41b3-b43e-0edc33726618","path":"sprites/spBackgroundFight/spBackgroundFight.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spFightBackground","path":"sprites/spFightBackground/spFightBackground.yy",},
+    "parent": {"name":"spBackgroundFight","path":"sprites/spBackgroundFight/spBackgroundFight.yy",},
     "resourceVersion": "1.3",
-    "name": "spFightBackground",
+    "name": "spBackgroundFight",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1381a1d1-dae5-40f9-a244-884e5d359686","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4b343dfc-8471-4aa1-9bb2-3276edf2da1e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spFightBackground",
+  "name": "spBackgroundFight",
   "tags": [],
   "resourceType": "GMSprite",
 }

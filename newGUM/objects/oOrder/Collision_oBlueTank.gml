@@ -1,15 +1,19 @@
 /// @desc 
-if(doAttack == true){
+if(oBlueTank.hp > 0){
+	if(doAttack == true){
 	
-	sAttack(oBlueTank);
+		sAttack(oBlueTank);
 	
+		oRound.next = true;
+		doAttack = false;
+	}
+	if(doSpecial == true)
+	{
+	
+	
+		oRound.next = true;
+		doSpecial = false;
+	}
+}else{
 	oRound.next = true;
-	doAttack = false;
-}
-if(doSpecial == true){
-	
-	
-	
-	oRound.next = true;
-	doSpecial = false;
 }

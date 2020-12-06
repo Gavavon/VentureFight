@@ -12,13 +12,8 @@ function sTopRound(){
 	
 	var i;
 	var j;
-
-	for(i = 0; i < ds_list_size(chars); i ++){
-		temp = ds_list_find_value(chars, i);
-		if(temp.hp <= 0){
-			ds_list_delete(chars, i);
-		}
-	}
+	
+	
 	for(j = 0; j < 6; j ++){
 		maxSpeed = 0;
 		for(i = 0; i < ds_list_size(chars); i ++){

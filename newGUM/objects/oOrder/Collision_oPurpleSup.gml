@@ -1,15 +1,19 @@
 /// @desc 
-if(doAttack == true){
+if(oPurpleSup.hp > 0){
+	if(doAttack == true){
 	
-	sAttack(oPurpleSup);
+		sAttack(oPurpleSup);
 	
+		oRound.next = true;
+		doAttack = false;
+	}
+	if(doSpecial == true)
+	{
+	
+	
+		oRound.next = true;
+		doSpecial = false;
+	}
+}else{
 	oRound.next = true;
-	doAttack = false;
-}
-if(doSpecial == true){
-	sBuffAttack(id);
-	
-	
-	oRound.next = true;
-	doSpecial = false;
 }

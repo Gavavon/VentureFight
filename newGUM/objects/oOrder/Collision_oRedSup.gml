@@ -1,15 +1,19 @@
 /// @desc 
-if(doAttack == true){
-	show_debug_message("attack");
+if(oRedSup.hp > 0){
+	if(doAttack == true){
+	
+		sAttack(oRedSup);
+	
+		oRound.next = true;
+		doAttack = false;
+	}
+	if(doSpecial == true)
+	{
 	
 	
+		oRound.next = true;
+		doSpecial = false;
+	}
+}else{
 	oRound.next = true;
-	doAttack = false;
-}
-if(doSpecial == true){
-	sHeal(id);
-	
-	
-	oRound.next = true;
-	doSpecial = false;
 }
