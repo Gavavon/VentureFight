@@ -1,9 +1,13 @@
+globalvar playedBefore;
+playedBefore = false;
+
 instance_create_depth(room_width / 2,(room_height / 2) - 64, 1, oMenu);
 globalvar spotInLine;
 spotInLine = 0;
 
 //Globals
 /// @desc 
+globalvar winners;
 globalvar turn;
 turn = 1;
 
@@ -55,3 +59,7 @@ lSpeed = 2;
 globalvar elSpeed;
 elSpeed = 1;
 
+if(playedBefore == false)
+{
+	draw_sprite_ext(spRedAssWin, 1, 200, 200, 1, 1, 0, c_white, 1);
+}
