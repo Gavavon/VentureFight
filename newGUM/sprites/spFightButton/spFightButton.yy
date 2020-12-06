@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 200,
-  "bbox_right": 589,
-  "bbox_top": 100,
-  "bbox_bottom": 199,
+  "bbox_left": 0,
+  "bbox_right": 569,
+  "bbox_top": 0,
+  "bbox_bottom": 179,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 800,
-  "height": 300,
+  "width": 570,
+  "height": 180,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2e14de7d-7dac-42b8-8885-fd767da3879b","path":"sprites/spFightButton/spFightButton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2e14de7d-7dac-42b8-8885-fd767da3879b","path":"sprites/spFightButton/spFightButton.yy",},"LayerId":{"name":"714c0e59-6224-4b2c-b151-f0c21e776a8e","path":"sprites/spFightButton/spFightButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spFightButton","path":"sprites/spFightButton/spFightButton.yy",},"resourceVersion":"1.0","name":"2e14de7d-7dac-42b8-8885-fd767da3879b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3bf8701a-83c2-4ec2-8fd1-56003aaebdb1","path":"sprites/spFightButton/spFightButton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3bf8701a-83c2-4ec2-8fd1-56003aaebdb1","path":"sprites/spFightButton/spFightButton.yy",},"LayerId":{"name":"3dd73d09-788a-4729-abca-084df71c65cb","path":"sprites/spFightButton/spFightButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spFightButton","path":"sprites/spFightButton/spFightButton.yy",},"resourceVersion":"1.0","name":"3bf8701a-83c2-4ec2-8fd1-56003aaebdb1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spFightButton","path":"sprites/spFightButton/spFightButton.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7ce12735-2f9a-4ea7-be97-5cc67aa64fa2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2e14de7d-7dac-42b8-8885-fd767da3879b","path":"sprites/spFightButton/spFightButton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ce4fcd10-42cf-4fd3-b3bf-d990350059b4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3bf8701a-83c2-4ec2-8fd1-56003aaebdb1","path":"sprites/spFightButton/spFightButton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"714c0e59-6224-4b2c-b151-f0c21e776a8e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3dd73d09-788a-4729-abca-084df71c65cb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",

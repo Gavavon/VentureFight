@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spOptions",
-    "path": "sprites/spOptions/spOptions.yy",
+    "name": "spAbilities",
+    "path": "sprites/spAbilities/spAbilities.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oAbilityButton","path":"objects/oAbilityButton/oAbilityButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

@@ -14,6 +14,7 @@ function scMenuSelection()
 			//Fight your friends
 			case 1:
 			{
+				room_goto(rFightScreen);
 				break;
 			}
 			//Options

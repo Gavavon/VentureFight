@@ -1,4 +1,5 @@
 //change globals to character arrays
+/*
 for(var i = 0; i < 3; i++)
 {
 	totalList[i] = p1Characters[i];
@@ -343,3 +344,4 @@ else//if(p2Characters[2] == spPurpleSup)
 
 obj.arrayPointer = 2;
 p2Characters[2] = obj;
+*/
