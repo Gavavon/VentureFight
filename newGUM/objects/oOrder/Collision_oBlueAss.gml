@@ -10,7 +10,8 @@ if(oBlueAss.hp > 0){
 	if(doSpecial == true)
 	{
 	
-	
+		sBuffAttack();
+		
 		oRound.next = true;
 		doSpecial = false;
 	}

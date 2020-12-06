@@ -1,12 +1,11 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function sBuffAttack()
-{
+function sBuffDefense(){
 	target = sTarget();
 	
-	if(target.atk < ehAttack)
+	if(target.def < ehDefense)
 	{
 		target.changed = true;
-		target.atk += 1;
+		target.def += 1;
 	}
 }

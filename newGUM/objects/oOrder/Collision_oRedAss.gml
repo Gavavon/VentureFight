@@ -9,7 +9,7 @@ if(oRedAss.hp > 0){
 	}
 	if(doSpecial == true)
 	{
-	
+		sBuffAttack();
 	
 		oRound.next = true;
 		doSpecial = false;

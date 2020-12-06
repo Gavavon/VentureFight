@@ -10,7 +10,7 @@ if(oRedTank.hp > 0){
 	if(doSpecial == true)
 	{
 	
-	
+		sBuffDefense();
 		oRound.next = true;
 		doSpecial = false;
 	}

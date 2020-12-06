@@ -4,6 +4,7 @@
     {"id":{"name":"oBlueSup","path":"objects/oBlueSup/oBlueSup.yy",},"order":3,},
     {"id":{"name":"spRedAss","path":"sprites/spRedAss/spRedAss.yy",},"order":8,},
     {"id":{"name":"spGreenAss","path":"sprites/spGreenAss/spGreenAss.yy",},"order":6,},
+    {"id":{"name":"sBuffDefense","path":"scripts/sBuffDefense/sBuffDefense.yy",},"order":11,},
     {"id":{"name":"spRightCorner","path":"sprites/spRightCorner/spRightCorner.yy",},"order":18,},
     {"id":{"name":"oRedTank","path":"objects/oRedTank/oRedTank.yy",},"order":3,},
     {"id":{"name":"spCorbinsBackground","path":"sprites/spCorbinsBackground/spCorbinsBackground.yy",},"order":25,},

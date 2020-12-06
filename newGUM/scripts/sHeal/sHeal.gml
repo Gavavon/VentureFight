@@ -1,9 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function sHeal(){
-	buffer = argument0;
+
+	target = sTarget();
+	target.hp += 25;
 	
-	target = s.target();
-	
-	target.hp += 50;
 }

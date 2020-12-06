@@ -9,7 +9,7 @@ if(oPurpleSup.hp > 0){
 	}
 	if(doSpecial == true)
 	{
-	
+		sHeal();
 	
 		oRound.next = true;
 		doSpecial = false;
