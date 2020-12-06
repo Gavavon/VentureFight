@@ -7,6 +7,10 @@ spotInLine = 0;
 globalvar turn;
 turn = 1;
 
+globalvar font;
+font = font_add("Boxy-Bold.ttf", 20, false, false, 32, 128);
+
+
 globalvar ehAttack; //Extra High
 ehAttack = 10; 
 globalvar hAttack; //High

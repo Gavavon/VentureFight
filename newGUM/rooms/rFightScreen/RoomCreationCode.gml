@@ -343,5 +343,3 @@ else//if(p2Characters[2] == spPurpleSup)
 
 obj.arrayPointer = 2;
 p2Characters[2] = obj;
-
-charactersSpeedOrdered
