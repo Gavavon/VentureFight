@@ -7,7 +7,7 @@ if(doAttack == true){
 	doAttack = false;
 }
 if(doSpecial == true){
-	
+	sBuffAttack(id);
 	
 	
 	oRound.next = true;

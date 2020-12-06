@@ -56,6 +56,7 @@
     {"id":{"name":"oPos5","path":"objects/oPos5/oPos5.yy",},"order":4,},
     {"id":{"name":"spPurpleAss","path":"sprites/spPurpleAss/spPurpleAss.yy",},"order":9,},
     {"id":{"name":"spSupport","path":"sprites/spSupport/spSupport.yy",},"order":32,},
+    {"id":{"name":"Script10","path":"scripts/Script10/Script10.yy",},"order":10,},
     {"id":{"name":"oAttackButton","path":"objects/oAttackButton/oAttackButton.yy",},"order":13,},
     {"id":{"name":"oRedAss","path":"objects/oRedAss/oRedAss.yy",},"order":2,},
     {"id":{"name":"spYellow","path":"sprites/spYellow/spYellow.yy",},"order":4,},

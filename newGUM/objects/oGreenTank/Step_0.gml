@@ -1,6 +1,9 @@
 /// @desc 
-if(selected = true){
+if(selected = true)
+{
 	persistent = true;
-}else{
+}
+else
+{
 	persistent = false;
 }

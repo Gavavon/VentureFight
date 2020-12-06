@@ -6,8 +6,8 @@ if(doAttack == true){
 	oRound.next = true;
 	doAttack = false;
 }
-if(doSpecial == true){
-	
+if(doSpecial == true)
+{
 	
 	
 	oRound.next = true;

@@ -7,7 +7,7 @@ if(doAttack == true){
 	doAttack = false;
 }
 if(doSpecial == true){
-	
+	sHeal(id);
 	
 	
 	oRound.next = true;
