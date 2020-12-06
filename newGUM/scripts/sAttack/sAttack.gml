@@ -10,6 +10,6 @@ function sAttack(){
 	}
 	until (target != attacker);
 	
-	return target.hp = sDamageCalc(target.hp, attacker.atk, target.def, attacker.crit);
+	return  sDamageCalc(target.hp, attacker.atk, target.def, attacker.crit);
 	
 }
