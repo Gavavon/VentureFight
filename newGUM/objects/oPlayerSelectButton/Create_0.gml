@@ -1,3 +1,4 @@
-/// @description Variables :)
-var arrayPointer = pointer_null;
-var indexPointer = pointer_null;
+/// @description Pointers
+var spritePointer = spFightButton;
+var arrayPointer = 1;
+var indexPointer = 1;

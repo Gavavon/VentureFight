@@ -1,2 +1,2 @@
-arrayPointer = 2;
-indexPointer = 2;
+arrayPointer2 = 2;
+indexPointer2 = 0;
