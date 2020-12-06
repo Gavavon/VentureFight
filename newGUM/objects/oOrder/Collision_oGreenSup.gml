@@ -1,7 +1,7 @@
 /// @desc 
 if(doAttack == true){
 	
-	show_debug_message("attack");
+	sAttack(oGreenSup);
 	
 	oRound.next = true;
 	doAttack = false;

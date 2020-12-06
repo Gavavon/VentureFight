@@ -1,17 +1,9 @@
 if(start == true){
-	player1Chars[0] = oBlueTank;
-	player1Chars[1] = oGreenTank;
-	player1Chars[2] = oPurpleTank;
-
-	player2Chars[0] = oGreenSup;
-	player2Chars[1] = oPurpleSup;
-	player2Chars[2] = oRedSup;
-	
 	sTopRound(player1Chars[0], player1Chars[1], player1Chars[2], player2Chars[0], player2Chars[1], player2Chars[2])
 	
 	start = false;
 }
-if(pos > array_length_1d(order)){
+if(pos == array_length_1d(order)){
 	pos = 0;
 	sTopRound(player1Chars[0], player1Chars[1], player1Chars[2], player2Chars[0], player2Chars[1], player2Chars[2])
 }
