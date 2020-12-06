@@ -345,3 +345,5 @@ else//if(p2Characters[2] == spPurpleSup)
 
 obj.arrayPointer = 2;
 player2Chars[2] = obj;
+
+//instance_create_depth(0, 0, 1, oRound);

@@ -8,7 +8,7 @@ function sTopRound(){
 	ds_list_add(chars, argument3);
 	ds_list_add(chars, argument4);
 	ds_list_add(chars, argument5);
-	//ds_list_shuffle(chars);
+	//ds_list_shuffle(chars); 
 	
 	var i;
 	var j;
