@@ -1,7 +1,6 @@
 {
   "resources": [
     {"id":{"name":"spAbilities","path":"sprites/spAbilities/spAbilities.yy",},"order":28,},
-    {"id":{"name":"oPlayerSelectButton","path":"objects/oPlayerSelectButton/oPlayerSelectButton.yy",},"order":0,},
     {"id":{"name":"oBlueSup","path":"objects/oBlueSup/oBlueSup.yy",},"order":3,},
     {"id":{"name":"spRedAss","path":"sprites/spRedAss/spRedAss.yy",},"order":10,},
     {"id":{"name":"spGreenAss","path":"sprites/spGreenAss/spGreenAss.yy",},"order":8,},
@@ -13,6 +12,7 @@
     {"id":{"name":"sHeal","path":"scripts/sHeal/sHeal.yy",},"order":4,},
     {"id":{"name":"spSupportCol","path":"sprites/spSupportCol/spSupportCol.yy",},"order":22,},
     {"id":{"name":"sAttack","path":"scripts/sAttack/sAttack.yy",},"order":9,},
+    {"id":{"name":"oTopThree","path":"objects/oTopThree/oTopThree.yy",},"order":20,},
     {"id":{"name":"spAssassins","path":"sprites/spAssassins/spAssassins.yy",},"order":31,},
     {"id":{"name":"spGreenSup","path":"sprites/spGreenSup/spGreenSup.yy",},"order":12,},
     {"id":{"name":"spRed","path":"sprites/spRed/spRed.yy",},"order":1,},
@@ -23,6 +23,7 @@
     {"id":{"name":"oCharacter","path":"objects/oCharacter/oCharacter.yy",},"order":3,},
     {"id":{"name":"scFullFighters","path":"scripts/scFullFighters/scFullFighters.yy",},"order":1,},
     {"id":{"name":"oPos1","path":"objects/oPos1/oPos1.yy",},"order":0,},
+    {"id":{"name":"oSelectCharacterButton","path":"objects/oSelectCharacterButton/oSelectCharacterButton.yy",},"order":19,},
     {"id":{"name":"oPurpleAss","path":"objects/oPurpleAss/oPurpleAss.yy",},"order":1,},
     {"id":{"name":"oBlueTank","path":"objects/oBlueTank/oBlueTank.yy",},"order":0,},
     {"id":{"name":"spOutlineBox","path":"sprites/spOutlineBox/spOutlineBox.yy",},"order":29,},
@@ -41,7 +42,6 @@
     {"id":{"name":"oBlueAss","path":"objects/oBlueAss/oBlueAss.yy",},"order":3,},
     {"id":{"name":"spTitle","path":"sprites/spTitle/spTitle.yy",},"order":18,},
     {"id":{"name":"oPos6","path":"objects/oPos6/oPos6.yy",},"order":5,},
-    {"id":{"name":"oSelected","path":"objects/oSelected/oSelected.yy",},"order":2,},
     {"id":{"name":"spBlank","path":"sprites/spBlank/spBlank.yy",},"order":6,},
     {"id":{"name":"oPos4","path":"objects/oPos4/oPos4.yy",},"order":3,},
     {"id":{"name":"spNumber1","path":"sprites/spNumber1/spNumber1.yy",},"order":26,},

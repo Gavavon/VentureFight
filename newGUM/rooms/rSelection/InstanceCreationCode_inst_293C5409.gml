@@ -1,0 +1,1 @@
+spritePointer = spRedAss
