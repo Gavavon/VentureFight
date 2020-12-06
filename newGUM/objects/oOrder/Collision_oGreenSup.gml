@@ -1,7 +1,10 @@
 /// @desc 
 if(doAttack == true){
 	
-	show_debug_message("attack");
+	//show_debug_message("attack");
+	
+	target = sTarget();
+	show_debug_message(target.hp);
 	
 	oRound.next = true;
 	doAttack = false;
