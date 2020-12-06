@@ -1,7 +1,12 @@
 instance_create_depth(room_width / 2,(room_height / 2) - 64, 1, oMenu);
+globalvar spotInLine;
+spotInLine = 0;
 
 //Globals
 /// @desc 
+globalvar turn;
+turn = 1;
+
 globalvar ehAttack; //Extra High
 ehAttack = 10; 
 globalvar hAttack; //High

@@ -1,5 +1,6 @@
 globalvar p1Characters;
 globalvar p2Characters;
+globalvar charactersSpeedOrdered;
 
 for(var i = 0; i < 3; i++)
 {

@@ -5,3 +5,4 @@ def = global.lDefense;
 spd = global.ehSpeed;
 crit = false;
 selected = false;
+var arrayPointer;

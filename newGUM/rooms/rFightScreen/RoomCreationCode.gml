@@ -1,108 +1,117 @@
 //change globals to character arrays
-//draw_sprite_ext(spFightButton, 1, room_width / 2, 50, 1, 1, 0, c_white, 1);
+for(var i = 0; i < 3; i++)
+{
+	totalList[i] = p1Characters[i];
+}
+for(var i = 0; i < 3; i++)
+{
+	totalList[i + 3] = p1Characters[i];
+}
 
 
 if(p1Characters[0] == spBlueAss)
 {
-	instance_create_depth(room_width / 3, room_height / 2, 1, oBlueAss);
+	var obj = instance_create_depth(room_width / 3, room_height / 2, 1, oBlueAss);
 }
 else if(p1Characters[0] == spBlueTank)
 {
-	instance_create_depth(room_width / 3, room_height / 2, 1, oBlueTank);
+	 var obj = instance_create_depth(room_width / 3, room_height / 2, 1, oBlueTank);
 }
 else if(p1Characters[0] == spBlueSup)
 {
-	instance_create_depth(room_width / 3, room_height / 2, 1, oBlueSup);
+	var obj = instance_create_depth(room_width / 3, room_height / 2, 1, oBlueSup);
 }
 else if(p1Characters[0] == spRedAss)
 {
-	instance_create_depth(room_width / 3, room_height / 2, 1, oRedAss);
+	var obj = instance_create_depth(room_width / 3, room_height / 2, 1, oRedAss);
 }
 else if(p1Characters[0] == spRedTank)
 {
-	instance_create_depth(room_width / 3, room_height / 2, 1, oRedTank);
+	var obj = instance_create_depth(room_width / 3, room_height / 2, 1, oRedTank);
 }
 else if(p1Characters[0] == spRedSup)
 {
-	instance_create_depth(room_width / 3, room_height / 2, 1, oRedSup);
+	var obj = instance_create_depth(room_width / 3, room_height / 2, 1, oRedSup);
 }
 else if(p1Characters[0] == spGreenAss)
 {
-	instance_create_depth(room_width / 3, room_height / 2, 1,  oGreenAss);
+	var obj = instance_create_depth(room_width / 3, room_height / 2, 1,  oGreenAss);
 }
 else if(p1Characters[0] == spGreenTank)
 {
-	instance_create_depth(room_width / 3, room_height / 2, 1,  oGreenTank);
+	var obj = instance_create_depth(room_width / 3, room_height / 2, 1,  oGreenTank);
 }
 else if(p1Characters[0] == spGreenSup)
 {
-	instance_create_depth(room_width / 3, room_height / 2, 1,  oGreenSup);
+	var obj = instance_create_depth(room_width / 3, room_height / 2, 1,  oGreenSup);
 }
 else if(p1Characters[0] == spPurpleAss)
 {
-	instance_create_depth(room_width / 3, room_height / 2, 1,  oPurpleAss);
+	var obj = instance_create_depth(room_width / 3, room_height / 2, 1,  oPurpleAss);
 }
 else if(p1Characters[0] == spPurpleTank)
 {
-	instance_create_depth(room_width / 3, room_height / 2, 1,  oPurpleTank);
+	var obj = instance_create_depth(room_width / 3, room_height / 2, 1,  oPurpleTank);
 }
-else if(p1Characters[0] == spPurpleSup)
+else//if(p1Characters[0] == spPurpleSup)
 {
-	instance_create_depth(room_width / 3, room_height / 2, 1,  oPurpleSup);
+	var obj = instance_create_depth(room_width / 3, room_height / 2, 1,  oPurpleSup);
 }
-
+obj.arrayPointer = 1;
+p1Characters[0] = obj;
 
 
 
 if(p1Characters[1] == spBlueAss)
 {
-	instance_create_depth(room_width / 5, room_height / 4, 1, oBlueAss);
+	var obj = instance_create_depth(room_width / 5, room_height / 4, 1, oBlueAss);
 }
 else if(p1Characters[1] == spBlueTank)
 {
-	instance_create_depth(room_width / 5, room_height / 4, 1, oBlueTank);
+	var obj = instance_create_depth(room_width / 5, room_height / 4, 1, oBlueTank);
 }
 else if(p1Characters[1] == spBlueSup)
 {
-	instance_create_depth(room_width / 5, room_height / 4, 1, oBlueSup);
+	var obj = instance_create_depth(room_width / 5, room_height / 4, 1, oBlueSup);
 }
 else if(p1Characters[1] == spRedAss)
 {
-	instance_create_depth(room_width / 5, room_height / 4, 1, oRedAss);
+	var obj = instance_create_depth(room_width / 5, room_height / 4, 1, oRedAss);
 }
 else if(p1Characters[1] == spRedTank)
 {
-	instance_create_depth(room_width / 5, room_height / 4, 1, oRedTank);
+	var obj = instance_create_depth(room_width / 5, room_height / 4, 1, oRedTank);
 }
 else if(p1Characters[1] == spRedSup)
 {
-	instance_create_depth(room_width / 5, room_height / 4, 1, oRedSup);
+	var obj = instance_create_depth(room_width / 5, room_height / 4, 1, oRedSup);
 }
 else if(p1Characters[1] == spGreenAss)
 {
-	instance_create_depth(room_width / 5, room_height / 4, 1,  oGreenAss);
+	var obj = instance_create_depth(room_width / 5, room_height / 4, 1,  oGreenAss);
 }
 else if(p1Characters[1] == spGreenTank)
 {
-	instance_create_depth(room_width / 5, room_height / 4, 1,  oGreenTank);
+	var obj = instance_create_depth(room_width / 5, room_height / 4, 1,  oGreenTank);
 }
 else if(p1Characters[1] == spGreenSup)
 {
-	instance_create_depth(room_width / 5, room_height / 4, 1,  oGreenSup);
+	var obj = instance_create_depth(room_width / 5, room_height / 4, 1,  oGreenSup);
 }
 else if(p1Characters[1] == spPurpleAss)
 {
-	instance_create_depth(room_width / 5, room_height / 4, 1,  oPurpleAss);
+	var obj = instance_create_depth(room_width / 5, room_height / 4, 1,  oPurpleAss);
 }
 else if(p1Characters[1] == spPurpleTank)
 {
-	instance_create_depth(room_width / 5, room_height / 4, 1,  oPurpleTank);
+	var obj = instance_create_depth(room_width / 5, room_height / 4, 1,  oPurpleTank);
 }
-else if(p1Characters[1] == spPurpleSup)
+else//if(p1Characters[1] == spPurpleSup)
 {
-	instance_create_depth(room_width / 5, room_height / 4, 1,  oPurpleSup);
+	var obj = instance_create_depth(room_width / 5, room_height / 4, 1,  oPurpleSup);
 }
-
+obj.arrayPointer = 1;
+p1Characters[1] = obj;
 
 
 
@@ -110,53 +119,54 @@ else if(p1Characters[1] == spPurpleSup)
 
 if(p1Characters[2] == spBlueAss)
 {
-	instance_create_depth(room_width / 5, room_height / 4 * 3, 1, oBlueAss);
+	var obj = instance_create_depth(room_width / 5, room_height / 4 * 3, 1, oBlueAss);
 }
 else if(p1Characters[2] == spBlueTank)
 {
-	instance_create_depth(room_width / 5, room_height / 4 * 3, 1, oBlueTank);
+	var obj = instance_create_depth(room_width / 5, room_height / 4 * 3, 1, oBlueTank);
 }
 else if(p1Characters[2] == spBlueSup)
 {
-	instance_create_depth(room_width / 5, room_height / 4 * 3, 1, oBlueSup);
+	var obj = instance_create_depth(room_width / 5, room_height / 4 * 3, 1, oBlueSup);
 }
 else if(p1Characters[2] == spRedAss)
 {
-	instance_create_depth(room_width / 5, room_height / 4 * 3, 1, oRedAss);
+	var obj = instance_create_depth(room_width / 5, room_height / 4 * 3, 1, oRedAss);
 }
 else if(p1Characters[2] == spRedTank)
 {
-	instance_create_depth(room_width / 5, room_height / 4 * 3, 1, oRedTank);
+	var obj = instance_create_depth(room_width / 5, room_height / 4 * 3, 1, oRedTank);
 }
 else if(p1Characters[2] == spRedSup)
 {
-	instance_create_depth(room_width / 5, room_height / 4 * 3, 1, oRedSup);
+	var obj = instance_create_depth(room_width / 5, room_height / 4 * 3, 1, oRedSup);
 }
 else if(p1Characters[2] == spGreenAss)
 {
-	instance_create_depth(room_width / 5, room_height / 4 * 3, 1,  oGreenAss);
+	var obj = instance_create_depth(room_width / 5, room_height / 4 * 3, 1,  oGreenAss);
 }
 else if(p1Characters[2] == spGreenTank)
 {
-	instance_create_depth(room_width / 5, room_height / 4 * 3, 1,  oGreenTank);
+	var obj = instance_create_depth(room_width / 5, room_height / 4 * 3, 1,  oGreenTank);
 }
 else if(p1Characters[2] == spGreenSup)
 {
-	instance_create_depth(room_width / 5, room_height / 4 * 3, 1,  oGreenSup);
+	var obj = instance_create_depth(room_width / 5, room_height / 4 * 3, 1,  oGreenSup);
 }
 else if(p1Characters[2] == spPurpleAss)
 {
-	instance_create_depth(room_width / 5, room_height / 4 * 3, 1,  oPurpleAss);
+	var obj = instance_create_depth(room_width / 5, room_height / 4 * 3, 1,  oPurpleAss);
 }
 else if(p1Characters[2] == spPurpleTank)
 {
-	instance_create_depth(room_width / 5, room_height / 4 * 3, 1,  oPurpleTank);
+	var obj = instance_create_depth(room_width / 5, room_height / 4 * 3, 1,  oPurpleTank);
 }
-else if(p1Characters[2] == spPurpleSup)
+else//if(p1Characters[2] == spPurpleSup)
 {
-	instance_create_depth(room_width / 5, room_height / 4 * 3, 1,  oPurpleSup);
+	var obj = instance_create_depth(room_width / 5, room_height / 4 * 3, 1,  oPurpleSup);
 }
-
+obj.arrayPointer = 1;
+p1Characters[2] = obj;
 
 
 
@@ -175,105 +185,108 @@ else if(p1Characters[2] == spPurpleSup)
 
 if(p2Characters[0] == spBlueAss)
 {
-	instance_create_depth(room_width / 3 * 2, room_height / 2, 1, oBlueAss);
+	var obj = instance_create_depth(room_width / 3 * 2, room_height / 2, 1, oBlueAss);
 }
 else if(p2Characters[0] == spBlueTank)
 {
-	instance_create_depth(room_width / 3 * 2, room_height / 2, 1, oBlueTank);
+	var obj = instance_create_depth(room_width / 3 * 2, room_height / 2, 1, oBlueTank);
 }
 else if(p2Characters[0] == spBlueSup)
 {
-	instance_create_depth(room_width / 3 * 2, room_height / 2, 1, oBlueSup);
+	var obj = instance_create_depth(room_width / 3 * 2, room_height / 2, 1, oBlueSup);
 }
 else if(p2Characters[0] == spRedAss)
 {
-	instance_create_depth(room_width / 3 * 2, room_height / 2, 1, oRedAss);
+	var obj = instance_create_depth(room_width / 3 * 2, room_height / 2, 1, oRedAss);
 }
 else if(p2Characters[0] == spRedTank)
 {
-	instance_create_depth(room_width / 3 * 2, room_height / 2, 1, oRedTank);
+	var obj = instance_create_depth(room_width / 3 * 2, room_height / 2, 1, oRedTank);
 }
 else if(p2Characters[0] == spRedSup)
 {
-	instance_create_depth(room_width / 3 * 2, room_height / 2, 1, oRedSup);
+	var obj = instance_create_depth(room_width / 3 * 2, room_height / 2, 1, oRedSup);
 }
 else if(p2Characters[0] == spGreenAss)
 {
-	instance_create_depth(room_width / 3 * 2, room_height / 2, 1,  oGreenAss);
+	var obj = instance_create_depth(room_width / 3 * 2, room_height / 2, 1,  oGreenAss);
 }
 else if(p2Characters[0] == spGreenTank)
 {
-	instance_create_depth(room_width / 3 * 2, room_height / 2, 1,  oGreenTank);
+	var obj = instance_create_depth(room_width / 3 * 2, room_height / 2, 1,  oGreenTank);
 }
 else if(p2Characters[0] == spGreenSup)
 {
-	instance_create_depth(room_width / 3 * 2, room_height / 2, 1,  oGreenSup);
+	var obj = instance_create_depth(room_width / 3 * 2, room_height / 2, 1,  oGreenSup);
 }
 else if(p2Characters[0] == spPurpleAss)
 {
-	instance_create_depth(room_width / 3 * 2, room_height / 2, 1,  oPurpleAss);
+	var obj = instance_create_depth(room_width / 3 * 2, room_height / 2, 1,  oPurpleAss);
 }
 else if(p2Characters[0] == spPurpleTank)
 {
-	instance_create_depth(room_width / 3 * 2, room_height / 2, 1,  oPurpleTank);
+	var obj = instance_create_depth(room_width / 3 * 2, room_height / 2, 1,  oPurpleTank);
 }
-else if(p2Characters[0] == spPurpleSup)
+else//if(p2Characters[0] == spPurpleSup)
 {
-	instance_create_depth(room_width / 3 * 2, room_height / 2, 1,  oPurpleSup);
+	var obj = instance_create_depth(room_width / 3 * 2, room_height / 2, 1,  oPurpleSup);
 }
-
+obj.arrayPointer = 2;
+p2Characters[0] = obj;
 
 
 
 if(p2Characters[1] == spBlueAss)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4, 1, oBlueAss);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4, 1, oBlueAss);
 }
 else if(p2Characters[1] == spBlueTank)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4, 1, oBlueTank);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4, 1, oBlueTank);
 }
 else if(p2Characters[1] == spBlueSup)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4, 1, oBlueSup);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4, 1, oBlueSup);
 }
 else if(p2Characters[1] == spRedAss)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4, 1, oRedAss);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4, 1, oRedAss);
 }
 else if(p2Characters[1] == spRedTank)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4, 1, oRedTank);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4, 1, oRedTank);
 }
 else if(p2Characters[1] == spRedSup)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4, 1, oRedSup);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4, 1, oRedSup);
 }
 else if(p2Characters[1] == spGreenAss)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4, 1,  oGreenAss);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4, 1,  oGreenAss);
 }
 else if(p2Characters[1] == spGreenTank)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4, 1,  oGreenTank);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4, 1,  oGreenTank);
 }
 else if(p2Characters[1] == spGreenSup)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4, 1,  oGreenSup);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4, 1,  oGreenSup);
 }
 else if(p2Characters[1] == spPurpleAss)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4, 1,  oPurpleAss);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4, 1,  oPurpleAss);
 }
 else if(p2Characters[1] == spPurpleTank)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4, 1,  oPurpleTank);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4, 1,  oPurpleTank);
 }
-else if(p2Characters[1] == spPurpleSup)
+else//if(p2Characters[1] == spPurpleSup)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4, 1,  oPurpleSup);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4, 1,  oPurpleSup);
 }
 
+obj.arrayPointer = 2;
+p2Characters[1] = obj;
 
 
 
@@ -281,49 +294,54 @@ else if(p2Characters[1] == spPurpleSup)
 
 if(p2Characters[2] == spBlueAss)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1, oBlueAss);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1, oBlueAss);
 }
 else if(p2Characters[2] == spBlueTank)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1, oBlueTank);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1, oBlueTank);
 }
 else if(p2Characters[2] == spBlueSup)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1, oBlueSup);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1, oBlueSup);
 }
 else if(p2Characters[2] == spRedAss)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1, oRedAss);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1, oRedAss);
 }
 else if(p2Characters[2] == spRedTank)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1, oRedTank);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1, oRedTank);
 }
 else if(p2Characters[2] == spRedSup)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1, oRedSup);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1, oRedSup);
 }
 else if(p2Characters[2] == spGreenAss)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1,  oGreenAss);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1,  oGreenAss);
 }
 else if(p2Characters[2] == spGreenTank)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1,  oGreenTank);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1,  oGreenTank);
 }
 else if(p2Characters[2] == spGreenSup)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1,  oGreenSup);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1,  oGreenSup);
 }
 else if(p2Characters[2] == spPurpleAss)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1,  oPurpleAss);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1,  oPurpleAss);
 }
 else if(p2Characters[2] == spPurpleTank)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1,  oPurpleTank);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1,  oPurpleTank);
 }
-else if(p2Characters[2] == spPurpleSup)
+else//if(p2Characters[2] == spPurpleSup)
 {
-	instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1,  oPurpleSup);
+	var obj = instance_create_depth(room_width / 5 * 4, room_height / 4 * 3, 1,  oPurpleSup);
 }
+
+obj.arrayPointer = 2;
+p2Characters[2] = obj;
+
+charactersSpeedOrdered
