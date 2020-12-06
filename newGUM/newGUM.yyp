@@ -47,7 +47,10 @@
     {"id":{"name":"oPos5","path":"objects/oPos5/oPos5.yy",},"order":4,},
     {"id":{"name":"spPurpleAss","path":"sprites/spPurpleAss/spPurpleAss.yy",},"order":9,},
     {"id":{"name":"spSupport","path":"sprites/spSupport/spSupport.yy",},"order":32,},
+<<<<<<< HEAD
     {"id":{"name":"sBuffAttack","path":"scripts/sBuffAttack/sBuffAttack.yy",},"order":10,},
+=======
+>>>>>>> 4c9da48418fe1e3c40328ba701323419d2a36a49
     {"id":{"name":"oAttackButton","path":"objects/oAttackButton/oAttackButton.yy",},"order":13,},
     {"id":{"name":"oRedAss","path":"objects/oRedAss/oRedAss.yy",},"order":2,},
     {"id":{"name":"spPurpleSup","path":"sprites/spPurpleSup/spPurpleSup.yy",},"order":13,},

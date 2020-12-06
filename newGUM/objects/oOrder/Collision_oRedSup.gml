@@ -1,14 +1,14 @@
 /// @desc 
 if(doAttack == true){
-	show_debug_message("attack");
 	
+	sAttack(oRedSup);
 	
 	oRound.next = true;
 	doAttack = false;
 }
 if(doSpecial == true){
-	sHeal(id);
 	
+	sHeal(oRedSup);
 	
 	oRound.next = true;
 	doSpecial = false;
