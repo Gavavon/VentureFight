@@ -8,6 +8,7 @@ function sTopRound(){
 	ds_list_add(chars, argument3);
 	ds_list_add(chars, argument4);
 	ds_list_add(chars, argument5);
+	//ds_list_shuffle(chars);
 	
 	var i;
 	var j;
@@ -18,21 +19,18 @@ function sTopRound(){
 			ds_list_delete(chars, i);
 		}
 	}
-
-	for(i = 0; i < ds_list_size(chars); i ++){
-		temp = ds_list_find_value(chars, i);
-		speeds[i] = temp.spd;
-	}
-
-	array_sort(speeds, false);
-
-	for(j = 0; j < ds_list_size(chars); j ++){
-		for(i = 0 ; i < ds_list_size(chars); i ++){
+	for(j = 0; j < 6; j ++){
+		maxSpeed = 0;
+		for(i = 0; i < ds_list_size(chars); i ++){
 			temp = ds_list_find_value(chars, i);
-			if(speeds[j] == temp.spd){
-				order[j] = temp;
+			if(maxSpeed < temp.spd){
+				show_debug_message(temp.spd);
+				maxSpeed = temp.spd;
+				location = i;
 			}
 		}
+		order[j] = ds_list_find_value(chars, location);
+		ds_list_delete(chars, location);
 	}
 	return order;
 }
