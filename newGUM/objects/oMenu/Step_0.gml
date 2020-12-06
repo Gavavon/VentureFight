@@ -8,9 +8,9 @@ if(move != 0)
 	menuIndex += move;
 	if(menuIndex < 0)
 	{
-		menuIndex = array_length_1d(main) - 1;
+		menuIndex = array_length_1d(currentMenu) - 1;
 	}
-	if(menuIndex >= array_length_1d(main))
+	if(menuIndex >= array_length_1d(currentMenu))
 	{
 		menuIndex = 0;
 	}

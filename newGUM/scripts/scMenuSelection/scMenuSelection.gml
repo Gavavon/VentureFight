@@ -11,21 +11,15 @@ function scMenuSelection()
 				room_goto(rSelection);
 				break;
 			}
-			//Fight your friends
-			case 1:
-			{
-				room_goto(rFightScreen);
-				break;
-			}
 			//Options
-			case 2:
+			case 1:
 			{
 				oMenu.currentMenu = options;
 				menuIndex = 0;
 				break;
 			}
 			//Exit
-			case 3:
+			case 2:
 			{
 				currentMenu = exitMenu;
 				menuIndex = 0;

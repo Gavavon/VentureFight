@@ -61,8 +61,6 @@ else//if(p1Characters[0] == spPurpleSup)
 	var obj = instance_create_depth(room_width / 3, room_height / 2, 1,  oPurpleSup);
 }
 obj.arrayPointer = 1;
-obj.image_xscale = .5;
-obj.image_yscale = .5;
 player1Chars[0] = obj;
 
 
@@ -116,8 +114,6 @@ else//if(p1Characters[1] == spPurpleSup)
 	var obj = instance_create_depth(room_width / 5, room_height / 4, 1,  oPurpleSup);
 }
 obj.arrayPointer = 1;
-obj.image_xscale = .5;
-obj.image_yscale = .5;
 player1Chars[1] = obj;
 
 
@@ -173,8 +169,6 @@ else//if(p1Characters[2] == spPurpleSup)
 	var obj = instance_create_depth(room_width / 5, room_height / 4 * 3, 1,  oPurpleSup);
 }
 obj.arrayPointer = 1;
-obj.image_xscale = .5;
-obj.image_yscale = .5;
 player1Chars[2] = obj;
 
 
@@ -241,8 +235,6 @@ else//if(p2Characters[0] == spPurpleSup)
 	var obj = instance_create_depth(room_width / 3 * 2, room_height / 2, 1,  oPurpleSup);
 }
 obj.arrayPointer = 2;
-obj.image_xscale = .5;
-obj.image_yscale = .5;
 player2Chars[0] = obj;
 
 
@@ -297,8 +289,6 @@ else//if(p2Characters[1] == spPurpleSup)
 }
 
 obj.arrayPointer = 2;
-obj.image_xscale = .5;
-obj.image_yscale = .5;
 player2Chars[1] = obj;
 
 
@@ -354,8 +344,6 @@ else//if(p2Characters[2] == spPurpleSup)
 }
 
 obj.arrayPointer = 2;
-obj.image_xscale = .5;
-obj.image_yscale = .5;
 player2Chars[2] = obj;
 
 //instance_create_depth(0, 0, 1, oRound);
