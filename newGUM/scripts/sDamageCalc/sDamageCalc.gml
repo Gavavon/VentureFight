@@ -9,22 +9,34 @@ function sDamageCalc(){
 	damage = 0;
 	MOD = 1;
 	
-	if(canCrit == true){
-		if(rnd < 20){
+	if(canCrit == true)
+	{
+		if(rnd < 20)
+		{
 			MOD = 1;
-		}else{
-			if(rnd < 55){
+		}
+		else
+		{
+			if(rnd < 55)
+			{
 				MOD = 1.15
-			}else{
-				if(rnd < 85){
+			}
+			else
+			{
+				if(rnd < 85)
+				{
 					MOD = 1.25
-				}else{
+				}
+				else
+				{
 					MOD = 1.5
 				}
 			}
 		}
 		damage = round((((atk - def) * 5) * MOD));
-	}else{
+	}
+	else
+	{
 		damage = round(((atk - def) * 5));
 	}
 	return (hp - damage);

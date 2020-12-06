@@ -1,24 +1,30 @@
+//Switch case in if statement to run the menu
 function scMenuSelection()
 {
 	if(oMenu.currentMenu == main)
 	{
 		switch(menuIndex)
 		{
-			//Fight
+			//Fight solo
 			case 0:
 			{
 				room_goto(rSelection);
 				break;
 			}
-			//Options
+			//Fight your friends
 			case 1:
+			{
+				break;
+			}
+			//Options
+			case 2:
 			{
 				oMenu.currentMenu = options;
 				menuIndex = 0;
 				break;
 			}
 			//Exit
-			case 2:
+			case 3:
 			{
 				currentMenu = exitMenu;
 				menuIndex = 0;

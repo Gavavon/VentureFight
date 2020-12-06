@@ -1,5 +1,4 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+//Store where each character posibility is stored in players arrays
 function scSetSelectorVars()
 {
 	var button = argument0;

@@ -15,17 +15,17 @@ var thirdOfRoom = room_width / 3;
 var distance = 64;
 for(var i = 0; i < 4 * distance; i += distance)
 {
-	var obj = instance_create_depth(thirdOfRoom + i, 100, 1, oPlayerSelectButton);
-	ds_list_add(buttons, obj);
-}
-for(var i = 0; i < 4 * distance; i += distance)
-{
-	var obj = instance_create_depth(thirdOfRoom + i, 200, 1, oPlayerSelectButton);
-	ds_list_add(buttons, obj);
-}
-for(var i = 0; i < 4 * distance; i += distance)
-{
 	var obj = instance_create_depth(thirdOfRoom + i, 300, 1, oPlayerSelectButton);
+	ds_list_add(buttons, obj);
+}
+for(var i = 0; i < 4 * distance; i += distance)
+{
+	var obj = instance_create_depth(thirdOfRoom + i, 400, 1, oPlayerSelectButton);
+	ds_list_add(buttons, obj);
+}
+for(var i = 0; i < 4 * distance; i += distance)
+{
+	var obj = instance_create_depth(thirdOfRoom + i, 500, 1, oPlayerSelectButton);
 	ds_list_add(buttons, obj);
 }
 
@@ -76,24 +76,3 @@ this.mask_index = spGreenSup;
 var this = ds_list_find_value(buttons, 11);
 this.sprite_index = spRedSup;
 this.mask_index = spRedSup;
-
-var obj = instance_create_depth(distance/2, distance/2, 1, oSelected);
-obj.arrayPointer = 1
-obj.indexPointer = 0;
-var obj = instance_create_depth(2* distance, distance/2, 1, oSelected);
-obj.arrayPointer = 1
-obj.indexPointer = 1;
-var obj = instance_create_depth(3 * distance + (distance/2), distance/2, 1, oSelected);
-obj.arrayPointer = 1
-obj.indexPointer = 2;
-
-var obj = instance_create_depth(room_width - distance - (distance/2), distance/2, 1, oSelected);
-obj.arrayPointer = 2
-obj.indexPointer = 0;
-var obj = instance_create_depth(room_width - 3 * distance - (distance / 2), distance/2, 1, oSelected);
-obj.arrayPointer = 2
-obj.indexPointer = 1;
-var obj = instance_create_depth(room_width - 5 * distance, distance/2, 1, oSelected);
-obj.arrayPointer = 2;
-obj.indexPointer = 2;
-
