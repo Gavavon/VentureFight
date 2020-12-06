@@ -9,8 +9,8 @@ else if(arrayPointer == 2)
 
 if(sprite_index != spBlank)
 {
-	image_xscale = .3;
-	image_yscale = .3;
+	image_xscale = .5;
+	image_yscale = .5;
 }
 else
 {

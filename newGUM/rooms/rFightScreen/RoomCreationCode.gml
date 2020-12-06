@@ -1,5 +1,5 @@
 //change globals to character arrays
-/*
+
 for(var i = 0; i < 3; i++)
 {
 	totalList[i] = p1Characters[i];
@@ -8,6 +8,8 @@ for(var i = 0; i < 3; i++)
 {
 	totalList[i + 3] = p1Characters[i];
 }
+globalvar player1Chars;
+globalvar player2Chars;
 
 
 if(p1Characters[0] == spBlueAss)
@@ -59,7 +61,7 @@ else//if(p1Characters[0] == spPurpleSup)
 	var obj = instance_create_depth(room_width / 3, room_height / 2, 1,  oPurpleSup);
 }
 obj.arrayPointer = 1;
-p1Characters[0] = obj;
+player1Chars[0] = obj;
 
 
 
@@ -112,7 +114,7 @@ else//if(p1Characters[1] == spPurpleSup)
 	var obj = instance_create_depth(room_width / 5, room_height / 4, 1,  oPurpleSup);
 }
 obj.arrayPointer = 1;
-p1Characters[1] = obj;
+player1Chars[1] = obj;
 
 
 
@@ -167,7 +169,7 @@ else//if(p1Characters[2] == spPurpleSup)
 	var obj = instance_create_depth(room_width / 5, room_height / 4 * 3, 1,  oPurpleSup);
 }
 obj.arrayPointer = 1;
-p1Characters[2] = obj;
+player1Chars[2] = obj;
 
 
 
@@ -233,7 +235,7 @@ else//if(p2Characters[0] == spPurpleSup)
 	var obj = instance_create_depth(room_width / 3 * 2, room_height / 2, 1,  oPurpleSup);
 }
 obj.arrayPointer = 2;
-p2Characters[0] = obj;
+player2Chars[0] = obj;
 
 
 
@@ -287,8 +289,7 @@ else//if(p2Characters[1] == spPurpleSup)
 }
 
 obj.arrayPointer = 2;
-p2Characters[1] = obj;
-
+player2Chars[1] = obj;
 
 
 
@@ -343,5 +344,4 @@ else//if(p2Characters[2] == spPurpleSup)
 }
 
 obj.arrayPointer = 2;
-p2Characters[2] = obj;
-*/
+player2Chars[2] = obj;
